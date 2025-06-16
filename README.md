@@ -54,4 +54,4 @@ python scripts/ejemplo.py
 ## 👤 Autor
 
 Creado por **Leonardo Morales Rodríguez (leomorgzzz)**  
-Plantilla pensada para 2025 y futuros proyectos.
+Plantilla pensada para 2025 y para asegurar orden y tradición en mis futuros análisis de datos.
