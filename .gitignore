@@ -19,12 +19,3 @@ __pycache__/
 
 *.sqlite3
 
-data/raw/*
-data/processed/*
-reports/*
-figures/*
-
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!reports/.gitkeep
-!figures/.gitkeep
