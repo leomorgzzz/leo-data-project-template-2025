@@ -1,4 +1,6 @@
 # Leo Data Project Template 2025
+![License](https://img.shields.io/badge/license-MIT-green)
+![Python Version](https://img.shields.io/badge/python-3.10+-blue)
 
 Una plantilla base para iniciar proyectos de análisis de datos de forma ordenada y profesional.
 
@@ -21,13 +23,27 @@ Una plantilla base para iniciar proyectos de análisis de datos de forma ordenad
 ├─.gitattributes      → Configuración de Git
 
 ```
-## 🚀 ¿Cómo usar este template?
 
-1. Haz un fork o clona este repo para iniciar tu nuevo proyecto.
-2. Crea tu entorno virtual y usa `pip install -r requirements.txt` para instalar dependencias.
-3. Guarda tus datos en `data/raw/` y comienza a procesarlos.
-4. Crea y usa tus scripts dentro de `/scripts` y guarda salidas en `data/processed/`, `figures/` o `reports/`.
+## 🚀Cómo usar este template
 
+Sigue estos pasos para empezar rápido con tu proyecto:
+
+```bash
+# Clona el repositorio
+git clone https://github.com/leomorgzzz/leo-data-project-template-2025.git
+
+# Entra a la carpeta
+cd leo-data-project-template-2025
+
+# (Opcional) Crea un entorno virtual e instala dependencias
+python -m venv env
+source env/bin/activate   # En Windows usa: .\env\Scripts\activate
+pip install -r requirements.txt
+
+# Ejecuta el script de ejemplo
+python scripts/ejemplo.py
+
+```
 ## 📌 Notas
 
 - Las carpetas están vacías, pero estructuradas para mantener un flujo de trabajo profesional.
